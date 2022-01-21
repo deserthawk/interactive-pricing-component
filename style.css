@@ -182,7 +182,7 @@ header p {
     color: hsl(15, 100%, 70%);
     background-color: hsl(14, 92%, 95%);
     font-size: .7em;
-    padding:2px 5px 2px 5px;
+    padding:2px 5px;
     border-radius: 10px;
     border-color: hsl(15, 100%, 70%);
     border-style: solid;
@@ -270,7 +270,7 @@ hr {
     width: var(--switch-width);
     height: var(--switch-height);
     top: 0;
-    left: 0px;
+    left: 0;
     position: absolute;
     margin: 0;
 }
@@ -322,11 +322,9 @@ hr {
 }
 
 .slider::-webkit-slider-runnable-track {
-    background-color: hsl(224, 65%, 95%);
     height: 10px;
     border-radius: 30px;
     background: linear-gradient(hsl(174, 77%, 80%), hsl(174, 77%, 80%)) 0/var(--sx) 100% no-repeat, #efefef;
-
 }
 
 .slider::-webkit-slider-thumb {
@@ -342,11 +340,9 @@ hr {
 }
 
 .slider::-moz-range-track {
-    background-color: hsl(224, 65%, 95%);
     height: 10px;
     border-radius: 30px;
     background: linear-gradient(hsl(174, 77%, 80%), hsl(174, 77%, 80%)) 0/var(--sx) 100% no-repeat, #efefef;
-
 }
 
 .slider::-moz-range-thumb {
